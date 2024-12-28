@@ -1,0 +1,636 @@
+:root {
+  --white-color: #fff;
+  --primery-color: rgb(0, 120, 255);
+  --p-color:#748182
+
+}
+ul{
+  list-style-type: none;
+}
+html{
+  scroll-padding-top: 55px;
+  scroll-behavior: smooth;
+}
+
+p{
+    color: var(--p-color);
+}
+p,
+span,
+a {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.pb-70{
+    padding: 70px 0 ;
+}
+/*  */
+
+
+
+/* star nav */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../imgs/bg.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+header nav li {
+  margin-left: 2.1875rem;
+}
+header nav .navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+.nav-item {
+  position: relative;
+}
+header .nav-item::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background-color: #000;
+  transition: all 0.5s ease-in-out;
+}
+.nav-item:hover::after {
+  width: 100%;
+}
+.nav-item .nav-link {
+  font-size: 14px;
+}
+header nav  {
+  box-shadow: 2px 23px 37px 2px rgba(0,0,0,0.75);
+}
+/*end nav */
+
+
+/* start header */
+header .title h1 {
+  font-size: 3.125rem;
+  font-weight: 800;
+}
+header .social .icon li{
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  line-height: 35px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+}
+header .social .icon li a{
+  color: #fff;
+}
+.anmation::after {
+  content: "";
+  margin-left: 10px;
+  animation-name: typed;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+
+
+@keyframes typed{
+  0%{
+  content: "|";
+}
+  1.79%{
+  content: "D|";
+}
+  3.57%{
+  content: "De|";
+}
+  5.36%{
+  content: "Des|";
+}
+  7.14%{
+  content: "Desi|";
+}
+  8.93%{
+  content: "Desig|";
+}
+  10.71%{
+  content: "Design|";
+}
+  12.50%{
+  content: "Designe|";
+}
+  14.29%{
+  content: "Designer|";
+}
+  16.07%{
+  content: "Designe|";
+}
+  17.86%{
+  content: "Design|";
+}
+  19.64%{
+  content: "Desig|";
+}
+  21.43%{
+  content: "Desi|";
+}
+  23.21%{
+  content: "Des|";
+}
+  25.00%{
+  content: "De|";
+}
+  26.79%{
+  content: "Dev|";
+}
+  28.57%{
+  content: "Deve|";
+}
+  30.36%{
+  content: "Devel|";
+  }
+  32.14%{
+  content: "Develo|";
+}
+  33.93%{
+  content: "Develop|";
+}
+  35.71%{
+  content: "Develope|";
+}
+  37.50%{
+  content: "Developer|";
+}
+  39.29%{
+  content: "Develope|";
+}
+  41.07%{
+  content: "Develop|";
+}
+  42.86%{
+  content: "Develo|";
+}
+  44.64%{
+  content: "Devel|";
+}
+  46.43%{
+  content: "Deve|";
+}
+  48.21%{
+  content: "Dev|";
+}
+  50.00%{
+  content: "De|";
+}
+  51.79%{
+  content: "D|";
+}
+  53.57%{
+  content: "|";
+}
+  55.36%{
+  content: "L|";
+}
+  57.14%{
+  content: "La|";
+}
+  58.93%{
+  content: "Lar|";
+}
+  60.71%{
+  content: "Larr|";
+}
+  62.50%{
+  content: "Larry|";
+}
+  64.29%{
+  content: "Larry D|";
+}
+  66.07%{
+  content: "Larry Da|";
+}
+  67.86%{
+  content: "Larry Dan|";
+}
+  69.64%{
+  content: "Larry Dani|";
+}
+  71.43%{
+  content: "Larry Danie|";
+}
+  73.21%{
+  content: "Larry Daniel|";
+}
+  75.00%{
+  content: "Larry Daniels|";
+}
+  76.79%{
+  content: "Larry Daniel|";
+}
+  78.57%{
+  content: "Larry Danie|";
+}
+  80.36%{
+  content: "Larry Dani|";
+}
+  82.14%{
+  content: "Larry Dan|";
+}
+  83.93%{
+  content: "Larry Da|";
+}
+  85.71%{
+  content: "Larry D|";
+}
+  87.50%{
+  content: "Larry|";
+}
+  89.29%{
+  content: "Larr|";
+}
+  91.07%{
+  content: "Lar|";
+}
+  92.86%{
+  content: "La|";
+}
+  94.64%{
+  content: "L|";
+}
+  96.43%{
+  content: "|";
+}
+  98.21%{
+  content: "|";
+}
+  100%{
+  content: "|";
+}
+}
+/* end header */
+/* start about */
+.about .img-about{
+    position: relative;
+    padding: 0 0 0 30px
+}
+
+.about .img-about::after{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.about h3{
+    font-weight: 800;
+}
+.about .title-sub{
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #999;
+}
+
+b{
+    font-weight: 700;
+}
+.progress{
+    margin-bottom: 30px;
+    color: #999 !important;
+    background-color: white !important;
+}
+.progress,.progress-stacked{
+    --bs-progress-bar-bg: #000;
+    --bs-progress-height:25px
+}
+.progress .progress-bar h6{
+    font-size: 13px;
+    z-index: 2;
+    padding-top: 10px;
+}
+.progress  .bar-1 , 
+.progress  .bar-2 , 
+.progress  .bar-3 {
+    position: relative;
+}
+.progress .bar-1::after , 
+.progress .bar-2::after , 
+.progress .bar-3::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 10px;
+
+}
+.progress .bar-1::after{
+    content: '95%';
+}
+.progress .bar-2::after{
+    content: '80%';
+}
+.progress .bar-3::after{
+    content: '90%';
+}
+.Download-cv:hover , .contact form .Submit:hover {
+background-color: #fff;
+color: black;
+}
+.Contact-Me:hover{
+    background-color:black;
+color: var(--white-color);
+}
+/* end about */
+/* start services */
+.services .title-servers h3 , 
+.portfolio .title-portfolio h3,
+.testimonials .title-testimonials h3,
+.Team .title-Team h3 , 
+.contact .contact-title h3{
+    font-size: 40px;
+    font-weight: 900;
+    z-index: 2;
+    position: relative;
+}
+.services .title-servers h3::after ,
+.portfolio .title-portfolio h3::after ,
+.testimonials .title-testimonials h3::after,
+.Team .title-Team h3::after ,
+.contact .contact-title h3::after{
+    content: "";
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    width: 15%;
+    height: 30px;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%);
+    margin: auto;
+    z-index: -1;
+}
+.box-icon {
+    height: 70px;
+    width: 70px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-Services:hover .box-icon {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: black;
+  }
+  
+  .services .inner-Services .content-box h3{
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .services .inner-Services .content-box p{
+    word-spacing: 2px;
+  }
+
+
+
+/* model */
+.modal-content .carousel-inner .carousel-item img{
+  border-radius: 0;
+}
+/* model */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end services */
+/* protoflio start */
+.nav-tabs{
+    --bs-nav-tabs-border-width:none
+}
+.nav{
+    --bs-nav-link-color:black
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  background-color: transparent;
+}
+.nav-tab .nav-tabs li {
+  color: #222;
+  font-weight: 700;
+}
+.nav-tab .nav-tabs .active{
+  position: relative;
+}
+.nav{
+  --bs-nav-link-hover-color:black
+}
+.nav-tab .nav-tabs .active::after{
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin:0 auto;
+  transition: all 2s ease-in-out;
+}
+.nav-tab .nav-tabs .active:hover::after{
+  width: 100%;
+}
+.tab-content .tab-pane .img-protfolio {
+  position: relative;
+  overflow: hidden;
+}
+.lay{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  margin:auto 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+.tab-content .tab-pane .img-protfolio:hover .lay{
+opacity: 1;
+}
+.icon-lay i , 
+.icon-team li  a{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  border-radius: 50%;
+  border: 1px solid #111;
+  background: #111;
+  color: #eee;
+}
+.icon-lay i:hover , 
+.icon-team li  a:hover{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  border-radius: 50%;
+  border: 1px solid #111;
+  background: white;
+  color: black;
+}
+.portfolio .img-protfolio .lay h6{
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+/* protoflio end */
+/*  */
+.carousel-item img{
+  width: 90px;
+  border-radius: 50%;
+}
+  /*start testimonials  */
+  .carousel-inner .caption h3{
+    position: relative;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius:50% ;
+    background-color:#869791;
+}
+.carousel-inner .caption p{
+  max-width: 100%;
+}
+.carousel-inner .caption h6{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 30px 0 5px;
+}
+/*testimonials end  */
+/* start counter */
+.counter .inner-counter i{
+  font-size: 30px;
+}
+.counter .inner-counter span{
+  font-weight: 900;
+}
+/* end counter */
+
+/* team */
+.Team .item-Team {
+  background-color: rgba(52, 52, 52, .8);
+  color: var(--white-color);
+ 
+}
+.img-team{
+  overflow: hidden;
+  max-width: 100%;
+  position: relative;
+}
+.img-team img{
+  width: 100%;
+  display: block;
+  
+}
+.lay-team{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background-color: var(--white-color);
+  opacity: 0;
+ 
+
+}
+.item-Team:hover .lay-team{
+  opacity: 1;
+  transform: rotateY(360deg);
+  transition: all 1s 1s ease-in-out;
+}
+.item-Team:hover img{
+  transform: scale(1.2);
+  transition:  all 1s ease-in-out; 
+}
+
+.icon-team li  a i{
+  margin-left: 5px;
+}
+
+/* team */
+/* contact */
+.icon-contact:hover .box-icon {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: black;
+}
+.contact  .icon-contact .caption-contact h6{
+  font-weight: 700;
+}
+.contact  .icon-contact .box-icon i {
+  font-size: 24px;
+}
+.inner-form input , .inner-form textarea{
+
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  border: 0;
+}
+.inner-form textarea {
+  height: 160px;
+  max-height: 160px;
+  width: 100%;
+}
+.contact form .Submit{
+  padding: 7px 25px;
+}
+/* contact */
+/* footer */
+footer{
+  background-color: #1c1c1c;
+}
